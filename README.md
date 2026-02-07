@@ -1,33 +1,24 @@
-This portfolio is made using [Next.js](https://nextjs.org/) project and [Tailwindcss](https://tailwindcss.com).
+# Apoorva Yadav's Portfolio
 
-## Development setup 🛠
+A modern portfolio built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com). Showcasing projects, skills, and experience.
 
-Steps to locally setup development after cloning the project.
+## Setup
 
-```sh
-git clone https://github.com/ippankbro/next13-portfolio
-```
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v16 or later)
 
-Note: You will need:
-
-- [node](https://nodejs.org/)
-
-Please install them if you don't have them already.
-
-### Step 1 - Install dependencies
+### Installation
 
 ```bash
-cd next13-portfolio
-```
+# Clone the repository
+git clone https://github.com/apooorva-aa/portfolio.git
+cd portfolio
 
-```bash
+# Install dependencies
 npm install
-```
 
-### Step 2 - Run the development server
-
-```bash
+# Run the development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the portfolio.
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
