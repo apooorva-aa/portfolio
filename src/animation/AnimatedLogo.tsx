@@ -34,23 +34,71 @@ export function AnimatedLogo() {
         />
       </motion.svg> */}
       <motion.svg
-        id="Layer_1"
-        data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 800 800"
-        className="h-full w-full fill-teal-500 stroke-teal-500 dark:fill-teal-200 "
+        viewBox="0 0 200 200"
+        className="h-full w-full fill-teal-500 stroke-teal-500 dark:fill-teal-200"
       >
-        <title>new-logo</title>
-        <motion.polygon
-          points="271.63 141.88 390.83 348.34 353.99 412.16 271.63 269.52 128.94 516.66 293.65 516.66 256.8 580.49 18.4 580.49 271.63 141.88"
-          strokeWidth="15"
+        <title>sparkle-logo</title>
+        {/* Center star */}
+        <motion.path
+          d="M100 20 L115 65 L165 75 L130 110 L145 160 L100 130 L55 160 L70 110 L35 75 L85 65 Z"
+          fill="none"
+          strokeWidth="3"
           variants={iconVariant}
           initial="hidden"
           animate="visible"
           transition={{
-            default: { duration: 3, ease: "easeInOut" },
-            fill: { duration: 3, ease: [1, 0, 0.8, 1] },
+            default: { duration: 2, ease: "easeInOut" },
+            fill: { duration: 2, ease: [1, 0, 0.8, 1] },
           }}
+        />
+        {/* Top sparkle line */}
+        <motion.line
+          x1="100"
+          y1="5"
+          x2="100"
+          y2="15"
+          strokeWidth="2"
+          stroke="currentColor"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 2, delay: 0.5 }}
+        />
+        {/* Right sparkle line */}
+        <motion.line
+          x1="175"
+          y1="100"
+          x2="185"
+          y2="100"
+          strokeWidth="2"
+          stroke="currentColor"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 2, delay: 0.7 }}
+        />
+        {/* Bottom sparkle line */}
+        <motion.line
+          x1="100"
+          y1="185"
+          x2="100"
+          y2="195"
+          strokeWidth="2"
+          stroke="currentColor"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 2, delay: 0.9 }}
+        />
+        {/* Left sparkle line */}
+        <motion.line
+          x1="15"
+          y1="100"
+          x2="25"
+          y2="100"
+          strokeWidth="2"
+          stroke="currentColor"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 2, delay: 1.1 }}
         />
         <motion.polygon
           points="524.77 141.88 778 580.49 539.62 580.49 502.76 516.66 667.45 516.66 524.77 269.52 442.43 412.15 405.58 348.33 524.77 141.88"

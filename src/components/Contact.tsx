@@ -28,11 +28,11 @@ export default function Contact() {
             <Link href="mailto:apoorvayadav@example.com">
               <div className="group flex flex-col items-start gap-4 rounded-lg border border-zinc-200 bg-zinc-50 p-6 transition-all duration-200 hover:border-teal-400 hover:bg-teal-50 dark:border-zinc-700 dark:bg-zinc-800 dark:hover:border-teal-500 dark:hover:bg-zinc-700">
                 <Image src="/icons/email.svg" alt="Email" width={32} height={32} />
-                <div>
+                <div className="w-full">
                   <h3 className="font-semibold text-zinc-900 dark:text-white">
                     Email
                   </h3>
-                  <p className="mt-1 text-sm text-teal-600 dark:text-teal-400 group-hover:underline">
+                  <p className="mt-1 break-all text-sm text-teal-600 dark:text-teal-400 group-hover:underline">
                     apoorvayadav70516@gmail.com
                   </p>
                 </div>

@@ -2,16 +2,6 @@ import { ShowCaseListDetatils } from "@/components/ShowCaseList";
 
 export const EXPERIENCE: ShowCaseListDetatils[] = [
   {
-    title: "Upcoming Software Engineering Intern",
-    organisation: {
-      name: "Google",
-      href: "https://www.google.com/",
-    },
-    date: "May - July, 2026",
-    location: "Bangalore, India",
-    description: "Upcoming Software Engineering Intern at Google for the Summer of 2026.",
-  },
-  {
     title: "Associate Software Development Intern (STEP)",
     organisation: {
       name: "Google",
