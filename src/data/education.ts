@@ -2,7 +2,7 @@ import { ShowCaseListDetatils } from "@/components/ShowCaseList";
 
 export const EDUCATION: ShowCaseListDetatils[] = [
   {
-    title: "Bachelors' of Technology",
+    title: "Bachelors&apos; of Technology",
     organisation: {
       name: "ABV-IIITM Gwalior",
       href: "https://www.iiitm.ac.in/index.php/en/",

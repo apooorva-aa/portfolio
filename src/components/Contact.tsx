@@ -17,7 +17,7 @@ export default function Contact() {
         <FadeUp key="contact-description" duration={0.6} delay={0.2}>
           <p className="mt-4 max-w-2xl text-base text-zinc-700 dark:text-zinc-300 md:text-lg">
             Feel free to reach out to me via email or connect with me on social
-            media. I'm always open to discussing new projects, ideas, or
+            media. I&apos;m always open to discussing new projects, ideas, or
             opportunities.
           </p>
         </FadeUp>

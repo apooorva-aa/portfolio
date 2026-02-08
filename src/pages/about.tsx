@@ -45,7 +45,7 @@ export default function About() {
             </FadeUp>
             <FadeUp key="description-1" duration={0.6} delay={0.2}>
               <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-                I'm a Computer Science undergraduate at ABV-IIITM Gwalior with a strong interest in building reliable, well-engineered software that balances performance, correctness, and design.
+                I&apos;m a Computer Science undergraduate at ABV-IIITM Gwalior with a strong interest in building reliable, well-engineered software that balances performance, correctness, and design.
               </p>
             </FadeUp>
             <FadeUp key="description-2" duration={0.6} delay={0.4}>

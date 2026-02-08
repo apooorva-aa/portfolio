@@ -11,9 +11,9 @@ export const EXPERIENCE: ShowCaseListDetatils[] = [
     location: "Bangalore, India",
     description: [
       "Engineered YouTube Auto Sharding Tool v2.0, introducing a desharding algorithm that reduced test runtime and minimized submit latency, and prevented BDD caused by inefficient over-sharding through advanced optimization techniques",
-      "Extended large-scale test infrastructure by adding support for Omnistresser and CPFT tests across YouTube's CI ecosystem",
+      "Extended large-scale test infrastructure by adding support for Omnistresser and CPFT tests across YouTube&apos;s CI ecosystem",
       "Built a Python Placer Helper library for database storage operations with production-grade contributions",
-      "Delivered 22 CLs (~3.6K LOC) to Google's codebase",
+      "Delivered 22 CLs (~3.6K LOC) to Google&apos;s codebase",
     ],
   },
 ];
