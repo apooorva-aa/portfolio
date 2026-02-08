@@ -85,11 +85,11 @@ export default function Hero() {
             </FadeUp>
             <FadeUp key="cta-buttons" duration={0.6} delay={0.4}>
               <div className="pointer-events-auto mt-8 flex flex-wrap gap-4">
-                <a href="/resume.pdf" download="Apoorva_Yadav_Resume.pdf">
+                <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
                   <button className="rounded-lg border-2 border-teal-600 px-6 py-3 font-medium text-teal-600 transition-all duration-200 hover:bg-teal-600 hover:text-white dark:border-teal-400 dark:text-teal-400 dark:hover:bg-teal-400 dark:hover:text-zinc-900">
                     View Resume
                   </button>
-                </a>
+                </Link>
               </div>
             </FadeUp>
           </AnimatePresence>
