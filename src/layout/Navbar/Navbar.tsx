@@ -119,7 +119,7 @@ export default function Navbar(props: Navbar) {
             ))}
             <ThemeSwitch />
           </div>
-          <div className="mt-16 text-white">©2023 Muh. Irfan Arfah</div>
+          <div className="mt-16 text-white">©2026 Apoorva Yadav</div>
         </motion.div>
       </AnimatePresence>
     </header>
